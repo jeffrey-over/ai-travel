@@ -197,26 +197,20 @@
               <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
                 class="input-field">
             </div>
-
+            
             <div class="input-wrapper">
-              <label for="people" class="input-label">Pax Number*</label>
-
-              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+                <label for="holidayType" class="input-label">Select Your Holiday Type*</label>
+            
+                <select name="holidayType" id="holidayType" required class="input-field">
+                    <option value="" disabled selected>Select Holiday Type</option>
+                    <option value="sun">Sun</option>
+                    <option value="road-trip">Road Trip</option>
+                    <option value="winter">Winter</option>
+                    <!-- Voeg hier andere vakantietypen toe -->
+                </select>
             </div>
 
-            <div class="input-wrapper">
-              <label for="checkin" class="input-label">Checkin Date**</label>
-
-              <input type="date" name="checkin" id="checkin" required class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkout" class="input-label">Checkout Date*</label>
-
-              <input type="date" name="checkout" id="checkout" required class="input-field">
-            </div>
-
-            <button type="submit" class="btn btn-secondary">Inquire now</button>
+            <button type="submit" class="btn btn-secondary">Search</button>
 
           </form>
 
